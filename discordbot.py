@@ -748,4 +748,5 @@ async def notice_error(ctx, error):
     await ctx.send(embed=embed)
     print("Notice Error")
 
-bot.run('OTA5NzY5ODcyMTY1MjAzOTc4.YZJHOA.VNMtLQjQ_9TXNbcyVMhpcXqNkRY')
+access_token = os.environ["BOT_TOKEN"]    
+bot.run(access_token)
